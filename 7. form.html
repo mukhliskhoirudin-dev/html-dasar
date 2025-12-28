@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+</head>
+
+<body>
+  <form>
+    <label for="username">username : </label>
+    <input type="text" id="username" placeholder="username" required />
+    <br />
+    <label for="password">password :</label>
+    <input type="password" id="password" placeholder="password" required /><br>
+    <br />
+    <label for="email">Email : </label>
+    <input type="email" id="email" readonly placeholder="readonly" />
+    <br />
+    <br />
+
+    <button type="submit">Kirim</button>
+    <button type="reset">reset</button>
+    <br />
+    <br />
+
+    <input type="radio" id="laki-laki" name="jeniskelamin" />
+    <label for="laki-laki">laki-laki</label>
+
+    <input type="radio" id="perempuan" name="jeniskelamin" />
+    <label for="perempuan">perempuan</label>
+    <br />
+    <br />
+
+    <input type="checkbox" id="anggur" />
+    <label for="anggur">anggur</label>
+
+    <input type="checkbox" id="melon" />
+    <label for="melon">melon</label>
+
+    <input type="checkbox" id="apel" />
+    <label for="apel">apel</label>
+
+    <input type="checkbox" id="nangka" />
+    <label for="nangka">nangka</label>
+    <br />
+    <br />
+
+    <label for="textarea">TextArea : </label><br />
+    <textarea placeholder="Masukan teks .." id="textsarea" cols="30" rows="10"></textarea>
+    <br />
+    <br />
+
+    <label for="combobox">Combo Box : </label>
+    <select id="combobox">
+      <option>Bandung</option>
+      <option>Bali</option>
+      <option>Yogyakarta</option>
+    </select>
+  </form>
+</body>
+
+</html>
